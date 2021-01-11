@@ -1,7 +1,25 @@
-@import 'styles/global';
+@import 'styles/defaults';
+
+
+
 
 .button {
-    color: $accent;
-    background-color: $accent;
-    scale: 200%;
+    display: block;
+    color:$accent;
+    background-color:white;
+    width: 220px;
+    height: 64px;
+    font-size: 27px;
+    margin: 32px;
+    border-radius: .2rem;
+    border: .2em solid $accent;
+    cursor: pointer;
+    
+}
+
+.button:hover {
+    color: white;
+
+    @extend .gradient;
+    
 }

@@ -80,6 +80,8 @@ h1 {
     font-family: 'Sonder Sans Bold Rough';
     font-size: larger;
     line-height: 150%;
+    max-width: 550px;
+
 }
 
 h2 {
@@ -185,6 +187,7 @@ a:hover {
 }
 
 img {
-    max-width: 100%;
+    max-width: 80%;
     display: block;
+    margin: auto;
 }

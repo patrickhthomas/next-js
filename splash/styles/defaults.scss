@@ -1,0 +1,19 @@
+$primary: #30174f;
+$secondary: #ffd13a;
+$accent: #2f9944;
+$alert: #b91e23;
+$accent2: #00153a;
+$dark: #120D19;
+$light: #E5E2E9;
+.gradient {
+    background-color: $accent;
+    transition: .1s ease-in;
+    transform: scale(1.1);
+}
+
+
+
+.button {
+    font-family: 'SonderSans-Rough';
+    letter-spacing: .05em;
+}

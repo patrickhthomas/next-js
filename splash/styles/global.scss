@@ -1,0 +1,190 @@
+/**/
+
+
+
+
+@font-face {
+    font-family: 'Quicksand Bold';
+    src: url('/fonts/Quicksand-Bold.ttf');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Quicksand Regular';
+    src: url('/fonts/Quicksand-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Quicksand Light';
+    src: url('/fonts/Quicksand-Light.ttf');
+    font-weight: lighter;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sonder Sans Black Rough';
+    src: url('/fonts/SonderSans-BlackRough.eot');
+    src: url('/fonts/SonderSans-BlackRough.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/SonderSans-BlackRough.woff2') format('woff2'),
+        url('/fonts/SonderSans-BlackRough.woff') format('woff'),
+        url('/fonts/SonderSans-BlackRough.ttf') format('truetype'),
+        url('/fonts/SonderSans-BlackRough.svg#SonderSans-BlackRough') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sonder Sans Rough';
+    src: url('/fonts/SonderSans-Rough.eot');
+    src: url('/fonts/SonderSans-Rough.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/SonderSans-Rough.woff2') format('woff2'),
+        url('/fonts/SonderSans-Rough.woff') format('woff'),
+        url('/fonts/SonderSans-Rough.ttf') format('truetype'),
+        url('/fonts/SonderSans-Rough.svg#SonderSans-Rough') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sonder Sans Bold Rough';
+    src: url('/fonts/SonderSans-BoldRough.eot');
+    src: url('/fonts/SonderSans-BoldRough.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/SonderSans-BoldRough.woff2') format('woff2'),
+        url('/fonts/SonderSans-BoldRough.woff') format('woff'),
+        url('/fonts/SonderSans-BoldRough.ttf') format('truetype'),
+        url('/fonts/SonderSans-BoldRough.svg#SonderSans-BoldRough') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+h1 {
+    font-family: 'Sonder Sans Bold Rough';
+    font-size: larger;
+    line-height: 150%;
+}
+
+h2 {
+    font-family: 'Sonder Sans Bold Rough';
+    font-size: larger;
+    line-height: 150%;
+}
+
+
+
+
+
+/*Purple*/
+$primary: #30174f;
+$secondary: #ffd13a;
+$accent: #2f9944;
+$alert: #b91e23;
+$accent2: #00153a;
+$dark: #120D19;
+$light: #E5E2E9;
+
+.button {
+    font-family: 'Quicksand-Bold'
+}
+
+.primary {
+    color: $primary;
+}
+
+
+
+.primary-bg {
+    background-color: $primary;
+}
+
+/*Yellow*/
+.secondary {
+    color: #ffd13a;
+}
+
+.secondary-bg {
+    background-color: #ffd13a;
+}
+
+/*Green*/
+.accent {
+    color: #2f9944;
+}
+
+.accent-bg {
+    background-color: #2f9944;
+}
+
+/*Red*/
+.alert {
+    color: #b91e23;
+}
+
+.alert-bg {
+    background-color: #b91e23;
+}
+
+/*Blue*/
+.accent2 {
+    color: #00153a;
+}
+
+.accent2-bg {
+    color: #00153a;
+}
+
+/*Dark*/
+.dark {
+    color: #120D19;
+}
+
+.dark-bg {
+    background-color: #120D19;
+}
+
+/*light*/
+.light {
+    color: #E5E2E9;
+}
+
+.light-bg {
+    background-color: #E5E2E9;
+}
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    color: #0070f3;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}

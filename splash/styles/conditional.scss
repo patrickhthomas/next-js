@@ -56,16 +56,37 @@ img.btm {
 
 .rel {
 text-align: center;
+padding: 0;
+margin: 0;
     
 }
 
 .break {
-    
+    display: block;
+    width: 80%;
+    margin: auto;
+    height: 4px;
+    background-color: $primary;
+    margin: 10px auto;
 }
 .big-logo{
+    position: relative;
     max-width: 90%;
     margin: auto;
     display: block;
+    z-index: 2;
+}
+
+.blur {
+    height: 600px;
+    width: 100%;
+    margin: auto;
+    background-color: white;
+    border-radius: 100%;
+    filter: blur(40px);
+    position: absolute;
+    margin-top: -120%;
+    z-index: 0;
 }
 
 

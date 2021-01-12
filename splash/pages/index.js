@@ -11,6 +11,9 @@ export default function Home() {
       <Head>
         <title>Dandelion</title>
         <link rel="icon" href="/favicon.ico" />
+        <script async charset="utf-8"
+    src="//cdn.iframe.ly/embed.js?api_key=..." 
+></script>
       </Head>
       <body class="grid">
       
@@ -94,6 +97,8 @@ export default function Home() {
         <button className={button.button}>Click it!</button>
   </motion.div>
 
+  
+
         
 
         <div className="grid">
@@ -103,6 +108,7 @@ export default function Home() {
           </a>
 
         </div>
+        
       </main>
       </body>
 

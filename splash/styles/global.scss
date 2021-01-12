@@ -1,6 +1,7 @@
 /**/
 
-
+@import 'defaults.scss';
+@import 'conditional.scss';
 
 
 @font-face {
@@ -69,26 +70,58 @@
 
 html,
 body {
+    background: url("/assets/bg1.svg"), $light;
+    background-size: 70%;
     padding: 0;
     margin: 0;
+    width: 100%;
     font-family: 'Quicksand', sans-serif;
     line-height: 1.6;
     font-size: 18px;
+    box-sizing: border-box;
 }
+
+
+
+
+
 
 h1 {
     font-family: 'Sonder Sans Bold Rough';
-    font-size: larger;
-    line-height: 150%;
-    max-width: 550px;
+    font-size: 54pt;
+    line-height: 120%;
+    letter-spacing: 2%;
 
 }
 
 h2 {
     font-family: 'Sonder Sans Bold Rough';
-    font-size: larger;
-    line-height: 150%;
+    font-size: 48pt;
+    line-height: 120%;
+    letter-spacing: 3%;
 }
+
+h3 {
+    font-family: 'Sonder Sans Bold Rough';
+    font-size: 36pt;
+    line-height: 120%;
+    letter-spacing: 1%;
+}
+
+h4 {
+    font-family: 'Sonder Sans Black Rough';
+    font-size: 24pt;
+    line-height: 120%;
+    letter-spacing: 1%;
+}
+
+h5 {
+    font-family: 'Sonder Sans Rough';
+    font-size: 18pt;
+    line-height: 100%;
+    letter-spacing: -3%;
+}
+
 
 
 
@@ -186,8 +219,4 @@ a:hover {
     text-decoration: underline;
 }
 
-img {
-    max-width: 80%;
-    display: block;
-    margin: auto;
-}
+

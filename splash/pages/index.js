@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import button from '../components/Button.module.scss'
 import { motion } from "framer-motion"
-import Layout from '../components/Layout'
+import Layout from '../components/layout'
 
 
 

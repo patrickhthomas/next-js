@@ -1,0 +1,96 @@
+@import 'defaults.scss';
+
+
+.container {
+    max-width: 100%;
+    display: grid;
+    margin: 0 auto;
+    grid-gap: 1rem;
+    grid-template-rows: repeat(4, auto);
+}
+
+.card {
+}
+
+.title,
+.title-two {
+    text-align: center;
+}
+
+.title-two {
+    margin-top: -40px;
+}
+
+.tr, .tl, .bl, .br {
+    width: 50%;
+    display: block;
+}
+
+.diamond .d-end {
+    width: 100%;
+    display: block;
+}
+
+.tr {
+    float: right;
+    margin-top: -42.6%;
+}
+
+.tl {
+    float: left;
+    margin-top: -42.6%;
+}
+
+.bl {
+    float: left;
+}
+.br {
+    float: right;
+}
+
+img.btm {
+    width: 100%;
+    display: block;
+    transform: translateY(-50%);
+}
+
+.rel {
+text-align: center;
+    
+}
+
+.break {
+    
+}
+.big-logo{
+    max-width: 90%;
+    margin: auto;
+    display: block;
+}
+
+
+
+
+@media (min-width: 600px) {
+    .container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .title,
+    .title-two {
+        text-align: left;
+    }
+    .big-logo {
+        margin-top: 48px;
+    }
+
+}
+
+@media (min-width: 900px) {
+    .container {
+        grid-template-columns: repeat(2, .5fr, 1fr);
+    }
+    .big-logo {
+        margin-top: 48px;
+    }
+
+}
